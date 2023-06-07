@@ -60,8 +60,8 @@ const apiKey = "fcfe8d1d70dcb7432dc6b7a354d6f419";
         }
       
         const forecastChartContainer = document.createElement('div');
-        forecastChartContainer.style.width = '500px'; // Adjust the width of the chart container
-        forecastChartContainer.style.height = '300px'; // Adjust the height of the chart container
+        forecastChartContainer.style.width = '500px';
+        forecastChartContainer.style.height = '300px';
       
         const forecastChartCanvas = document.createElement('canvas');
         forecastChartCanvas.id = 'forecast-chart';
@@ -83,7 +83,7 @@ const apiKey = "fcfe8d1d70dcb7432dc6b7a354d6f419";
           },
           options: {
             responsive: true,
-            maintainAspectRatio: false, // Adjusted to disable maintaining aspect ratio
+            maintainAspectRatio: false,
             plugins: {
               legend: {
                 display: false

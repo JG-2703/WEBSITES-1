@@ -35,7 +35,7 @@ input:focus {
     margin-bottom: 0;
     display: flex;
     align-items: center;
-} /* .weather img{ transform: scale(2); } */
+} 
 
 .box {
     display: inline-block;
@@ -48,13 +48,14 @@ input:focus {
     min-height: 200px;
     border-radius: 10px;
     text-align: center;
+    padding-bottom: 80px;
   }
 
   .weather-info {
-    margin: 0; /* Remove default margin */
-    padding: 5px; /* Add padding for spacing */
-    font-size: 14px; /* Adjust the font size */
-    color: #333; /* Adjust the text color */
+    margin: 0;
+    padding: 5px;
+    font-size: 14px;
+    color: #333;
   }
   
   #main {
@@ -69,3 +70,26 @@ input:focus {
     text-align: center;
     margin-top: 1rem;
   }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-image: url("your-blurred-background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-content {
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  
